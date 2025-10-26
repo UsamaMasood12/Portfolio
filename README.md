@@ -3,7 +3,7 @@
 A modern, animated portfolio website showcasing data science projects, machine learning expertise, and technical skills.
 
 ## 🚀 Live Demo
-[View Portfolio](https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME)
+[View Portfolio](https://usamamasood12.github.io/Portfolio)
 
 ## ✨ Features
 - Interactive animations and transitions
@@ -31,8 +31,8 @@ A modern, animated portfolio website showcasing data science projects, machine l
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
-   cd YOUR_REPOSITORY_NAME
+   git clone https://github.com/UsamaMasood12/Portfolio.git
+   cd Portfolio
    ```
 
 2. **Install dependencies**
@@ -48,48 +48,7 @@ A modern, animated portfolio website showcasing data science projects, machine l
 
 ## 🌐 Deployment to GitHub Pages
 
-### First Time Setup
-
-1. **Create a new repository on GitHub**
-   - Go to [GitHub](https://github.com)
-   - Click "New Repository"
-   - Name it (e.g., `portfolio` or `YOUR_USERNAME.github.io`)
-   - Do NOT initialize with README
-
-2. **Update package.json**
-   - Open `package.json`
-   - Change the `homepage` field:
-     ```json
-     "homepage": "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME"
-     ```
-   - If using `YOUR_USERNAME.github.io` as repo name, use:
-     ```json
-     "homepage": "https://YOUR_GITHUB_USERNAME.github.io"
-     ```
-
-3. **Initialize Git and push to GitHub**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Portfolio website"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
-   git push -u origin main
-   ```
-
-4. **Deploy to GitHub Pages**
-   ```bash
-   npm run deploy
-   ```
-
-5. **Configure GitHub Pages**
-   - Go to your repository on GitHub
-   - Click "Settings" → "Pages"
-   - Under "Source", select "gh-pages" branch
-   - Click "Save"
-   - Your site will be live at the URL shown!
-
-### Updating Your Portfolio
+### Deploy Updates
 
 After making changes:
 ```bash
@@ -104,11 +63,20 @@ npm run deploy
 ### Update Personal Information
 Edit `src/App.jsx`:
 - Contact details (email, phone, location)
-- LinkedIn and GitHub URLs
-- Projects data
+- LinkedIn: https://www.linkedin.com/in/masood-usama
+- GitHub: https://github.com/UsamaMasood12
+- Projects data and repository links
 - Skills list
 - Experience details
 - Education information
+
+### Projects Included
+1. [AI Chatbot for Donor Support](https://github.com/UsamaMasood12/Charity-Chatbot)
+2. [Predictive Maintenance in Manufacturing](https://github.com/UsamaMasood12/Predictive-Maintenance-Using-ML)
+3. [Used Car Price Prediction](https://github.com/UsamaMasood12/used-car-price-prediction)
+4. [NHS Digital Data Analysis Challenge](https://github.com/UsamaMasood12/Digdata-NHS-Excell-R-and-Python-challenge)
+5. [Interactive Plastic Pollution Visualization](https://github.com/UsamaMasood12/Interactive-Visualization-of-Plastic-Pollution-across-the-globe)
+6. [Power BI Jewelry Analytics Dashboard](https://github.com/UsamaMasood12/Power-BI-analysis-Project)
 
 ### Change Colors
 Modify Tailwind classes in `src/App.jsx`:
@@ -136,6 +104,8 @@ This project is open source and available under the MIT License.
 
 ## 📧 Contact
 - Email: usamamasood531@gmail.com
+- LinkedIn: [Usama Masood](https://www.linkedin.com/in/masood-usama)
+- GitHub: [UsamaMasood12](https://github.com/UsamaMasood12)
 - Location: Middlesbrough, UK
 - Phone: +44 7724 030958
 

@@ -62,7 +62,7 @@ export default function Portfolio() {
       tech: ["LangChain", "RAG", "FAISS", "LLMs"],
       description: "Developed RAG-based conversational AI for charity organization enabling automated donor queries",
       details: "Implemented FAISS vector database for efficient information retrieval with LangChain orchestration",
-      github: "#",
+      github: "https://github.com/UsamaMasood12/Charity-Chatbot",
       category: "AI/ML"
     },
     {
@@ -71,7 +71,7 @@ export default function Portfolio() {
       tech: ["Python", "SVM", "TensorFlow", "LIME"],
       description: "Achieved 99.80% accuracy using SVM on 10,000+ data points, comparing 9 ML algorithms",
       details: "Applied SMOTE balancing and built LIME explainability framework for model interpretability",
-      github: "#",
+      github: "https://github.com/UsamaMasood12/Predictive-Maintenance-Using-ML",
       category: "AI/ML"
     },
     {
@@ -80,7 +80,7 @@ export default function Portfolio() {
       tech: ["Python", "Random Forest", "XGBoost"],
       description: "Built regression model achieving R² of 0.8747 on 50,000+ vehicle records",
       details: "Compared 5 algorithms with hyperparameter tuning using GridSearchCV for optimal performance",
-      github: "#",
+      github: "https://github.com/UsamaMasood12/used-car-price-prediction",
       category: "AI/ML"
     },
     {
@@ -89,7 +89,7 @@ export default function Portfolio() {
       tech: ["Excel", "Python", "R"],
       description: "Analyzed NHS healthcare dataset using Excel dashboards, Python statistical testing, and R visualizations",
       details: "Identified key healthcare insights including patient demographics and treatment outcome patterns",
-      github: "#",
+      github: "https://github.com/UsamaMasood12/Digdata-NHS-Excell-R-and-Python-challenge",
       category: "Analytics"
     },
     {
@@ -98,7 +98,7 @@ export default function Portfolio() {
       tech: ["D3.js", "JavaScript"],
       description: "Developed interactive choropleth map for 195+ countries with multi-level filtering",
       details: "Collaborated on 4 visualizations with zoom/pan functionality and drill-down capabilities",
-      github: "#",
+      github: "https://github.com/UsamaMasood12/Interactive-Visualization-of-Plastic-Pollution-across-the-globe",
       category: "Visualization"
     },
     {
@@ -107,7 +107,7 @@ export default function Portfolio() {
       tech: ["Power BI", "DAX", "SQL"],
       description: "Designed BI dashboard with star schema tracking revenue, profit margin, and inventory turnover",
       details: "Created 50+ DAX measures including time intelligence and built 5 interactive dashboard pages",
-      github: "#",
+      github: "https://github.com/UsamaMasood12/Power-BI-analysis-Project",
       category: "Analytics"
     }
   ];
@@ -267,11 +267,11 @@ export default function Portfolio() {
 
             {/* Social Links with Animation */}
             <div className="flex justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.7s' }}>
-              <a href="#" className="group relative p-4 bg-slate-800 rounded-full hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-500 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/50">
+              <a href="https://www.linkedin.com/in/masood-usama" target="_blank" rel="noopener noreferrer" className="group relative p-4 bg-slate-800 rounded-full hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-500 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/50">
                 <Linkedin size={24} className="relative z-10 group-hover:animate-bounce" />
                 <div className="absolute inset-0 bg-blue-500 rounded-full blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
               </a>
-              <a href="#" className="group relative p-4 bg-slate-800 rounded-full hover:bg-gradient-to-r hover:from-purple-600 hover:to-purple-500 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-purple-500/50">
+              <a href="https://github.com/UsamaMasood12" target="_blank" rel="noopener noreferrer" className="group relative p-4 bg-slate-800 rounded-full hover:bg-gradient-to-r hover:from-purple-600 hover:to-purple-500 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-purple-500/50">
                 <Github size={24} className="relative z-10 group-hover:animate-bounce" />
                 <div className="absolute inset-0 bg-purple-500 rounded-full blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
               </a>
@@ -698,11 +698,11 @@ export default function Portfolio() {
               Open to exciting opportunities in Data Science and Machine Learning
             </p>
             <div className="flex justify-center gap-4 mb-8">
-              <a href="#" className="group relative p-4 bg-slate-800 rounded-full hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-500 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/50">
+              <a href="https://www.linkedin.com/in/masood-usama" target="_blank" rel="noopener noreferrer" className="group relative p-4 bg-slate-800 rounded-full hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-500 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/50">
                 <Linkedin size={24} className="relative z-10 group-hover:animate-bounce" />
                 <div className="absolute inset-0 bg-blue-500 rounded-full blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
               </a>
-              <a href="#" className="group relative p-4 bg-slate-800 rounded-full hover:bg-gradient-to-r hover:from-purple-600 hover:to-purple-500 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-purple-500/50">
+              <a href="https://github.com/UsamaMasood12" target="_blank" rel="noopener noreferrer" className="group relative p-4 bg-slate-800 rounded-full hover:bg-gradient-to-r hover:from-purple-600 hover:to-purple-500 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-purple-500/50">
                 <Github size={24} className="relative z-10 group-hover:animate-bounce" />
                 <div className="absolute inset-0 bg-purple-500 rounded-full blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
               </a>

@@ -2,7 +2,7 @@
   "name": "usama-masood-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://UsamaMasood12.github.io/Portfolio",
+  "homepage": "https://usamamasood12.github.io/Portfolio",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
