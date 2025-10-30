@@ -26,49 +26,7 @@ MSc Data Science graduate (Feb 2026, Distinction track) from Teesside University
 
 ## 🏆 Featured Projects
 
-### 1. 🤖 [AI Chatbot for Donor Support](https://github.com/UsamaMasood12/Charity-Chatbot)
-**Tech Stack:** LangChain, RAG, FAISS, LLMs, Python  
-- Developed RAG-based conversational AI for charity organizations
-- Implemented FAISS vector database for efficient information retrieval
-- Enabled automated donor query handling and support systems
-- **Key Achievement:** Real-time response generation with context awareness
-
-### 2. 🏭 [Predictive Maintenance in Manufacturing](https://github.com/UsamaMasood12/Predictive-Maintenance-Using-ML)
-**Tech Stack:** Python, SVM, TensorFlow, LIME, Scikit-Learn  
-- Achieved **99.80% accuracy** using SVM on 10,000+ data points
-- Compared 9 different machine learning algorithms
-- Applied SMOTE for class balancing and LIME for model interpretability
-- **Impact:** Potential 40% reduction in unplanned downtime
-
-### 3. 🚗 [Used Car Price Prediction](https://github.com/UsamaMasood12/used-car-price-prediction)
-**Tech Stack:** Python, Random Forest, XGBoost, GridSearchCV  
-- Built regression model achieving **R² of 0.8747** on 50,000+ vehicle records
-- Implemented hyperparameter tuning using GridSearchCV
-- Compared 5 algorithms for optimal performance
-- **Business Value:** Accurate pricing strategy for automotive market
-
-### 4. 🏥 [NHS Digital Data Analysis Challenge](https://github.com/UsamaMasood12/Digdata-NHS-Excell-R-and-Python-challenge)
-**Tech Stack:** Excel, Python, R, Statistical Analysis  
-- Analyzed complex NHS healthcare datasets
-- Created interactive Excel dashboards with advanced formulas
-- Performed statistical testing in Python and visualization in R
-- **Insights:** Identified key patient demographics and treatment patterns
-
-### 5. 🌍 [Interactive Plastic Pollution Visualization](https://github.com/UsamaMasood12/Interactive-Visualization-of-Plastic-Pollution-across-the-globe)
-**Tech Stack:** D3.js, JavaScript, HTML/CSS  
-- Developed interactive choropleth map for 195+ countries
-- Implemented multi-level filtering and drill-down capabilities
-- Created zoom/pan functionality for detailed exploration
-- **Impact:** Enhanced data storytelling for environmental awareness
-
-### 6. 💎 [Power BI Jewelry Analytics Dashboard](https://github.com/UsamaMasood12/Power-BI-analysis-Project)
-**Tech Stack:** Power BI, DAX, SQL, Star Schema  
-- Designed comprehensive BI dashboard tracking KPIs
-- Created 50+ DAX measures including time intelligence
-- Built 5 interactive dashboard pages with cross-filtering
-- **Metrics:** Revenue, profit margin, inventory turnover analysis
-
-### 7. 🧠 [Enterprise AI Knowledge Assistant](https://github.com/UsamaMasood12/Enterprise-AI-Knowledge-Assistant)
+### 1. 🧠 [Enterprise AI Knowledge Assistant](https://github.com/UsamaMasood12/Enterprise-AI-Knowledge-Assistant)
 **Tech Stack:** LangChain, OpenAI GPT, Streamlit, FAISS, Python  
 - Built enterprise-grade AI assistant for intelligent document processing
 - Implemented advanced RAG architecture for context-aware responses
@@ -76,6 +34,48 @@ MSc Data Science graduate (Feb 2026, Distinction track) from Teesside University
 - Developed user-friendly Streamlit interface for seamless interaction
 - **Key Features:** Multi-document support, semantic search, conversation memory
 - **Impact:** 70% reduction in information retrieval time for enterprise users
+
+### 2. 🤖 [AI Chatbot for Donor Support](https://github.com/UsamaMasood12/Charity-Chatbot)
+**Tech Stack:** LangChain, RAG, FAISS, LLMs, Python  
+- Developed RAG-based conversational AI for charity organizations
+- Implemented FAISS vector database for efficient information retrieval
+- Enabled automated donor query handling and support systems
+- **Key Achievement:** Real-time response generation with context awareness
+
+### 3. 🏭 [Predictive Maintenance in Manufacturing](https://github.com/UsamaMasood12/Predictive-Maintenance-Using-ML)
+**Tech Stack:** Python, SVM, TensorFlow, LIME, Scikit-Learn  
+- Achieved **99.80% accuracy** using SVM on 10,000+ data points
+- Compared 9 different machine learning algorithms
+- Applied SMOTE for class balancing and LIME for model interpretability
+- **Impact:** Potential 40% reduction in unplanned downtime
+
+### 4. 🚗 [Used Car Price Prediction](https://github.com/UsamaMasood12/used-car-price-prediction)
+**Tech Stack:** Python, Random Forest, XGBoost, GridSearchCV  
+- Built regression model achieving **R² of 0.8747** on 50,000+ vehicle records
+- Implemented hyperparameter tuning using GridSearchCV
+- Compared 5 algorithms for optimal performance
+- **Business Value:** Accurate pricing strategy for automotive market
+
+### 5. 🏥 [NHS Digital Data Analysis Challenge](https://github.com/UsamaMasood12/Digdata-NHS-Excell-R-and-Python-challenge)
+**Tech Stack:** Excel, Python, R, Statistical Analysis  
+- Analyzed complex NHS healthcare datasets
+- Created interactive Excel dashboards with advanced formulas
+- Performed statistical testing in Python and visualization in R
+- **Insights:** Identified key patient demographics and treatment patterns
+
+### 6. 🌍 [Interactive Plastic Pollution Visualization](https://github.com/UsamaMasood12/Interactive-Visualization-of-Plastic-Pollution-across-the-globe)
+**Tech Stack:** D3.js, JavaScript, HTML/CSS  
+- Developed interactive choropleth map for 195+ countries
+- Implemented multi-level filtering and drill-down capabilities
+- Created zoom/pan functionality for detailed exploration
+- **Impact:** Enhanced data storytelling for environmental awareness
+
+### 7. 💎 [Power BI Jewelry Analytics Dashboard](https://github.com/UsamaMasood12/Power-BI-analysis-Project)
+**Tech Stack:** Power BI, DAX, SQL, Star Schema  
+- Designed comprehensive BI dashboard tracking KPIs
+- Created 50+ DAX measures including time intelligence
+- Built 5 interactive dashboard pages with cross-filtering
+- **Metrics:** Revenue, profit margin, inventory turnover analysis
 
 ## 💻 Technical Skills
 
