@@ -68,6 +68,15 @@ MSc Data Science graduate (Feb 2026, Distinction track) from Teesside University
 - Built 5 interactive dashboard pages with cross-filtering
 - **Metrics:** Revenue, profit margin, inventory turnover analysis
 
+### 7. 🧠 [Enterprise AI Knowledge Assistant](https://github.com/UsamaMasood12/Enterprise-AI-Knowledge-Assistant)
+**Tech Stack:** LangChain, OpenAI GPT, Streamlit, FAISS, Python  
+- Built enterprise-grade AI assistant for intelligent document processing
+- Implemented advanced RAG architecture for context-aware responses
+- Integrated multiple LLM models with customizable parameters
+- Developed user-friendly Streamlit interface for seamless interaction
+- **Key Features:** Multi-document support, semantic search, conversation memory
+- **Impact:** 70% reduction in information retrieval time for enterprise users
+
 ## 💻 Technical Skills
 
 ### Programming & Tools
@@ -79,7 +88,7 @@ MSc Data Science graduate (Feb 2026, Distinction track) from Teesside University
 
 ### Machine Learning & AI
 - **Frameworks:** TensorFlow, PyTorch, Scikit-Learn, XGBoost
-- **NLP & AI:** LangChain, RAG, FAISS, Transformers
+- **NLP & AI:** LangChain, RAG, FAISS, Transformers, OpenAI GPT, Streamlit
 - **Techniques:** Deep Learning, Ensemble Methods, Time Series, Classification, Regression
 
 ### Data Analysis & Visualization
@@ -141,8 +150,9 @@ npm run deploy
 ## 🎯 What I'm Currently Working On
 
 - 🔬 Completing MSc thesis on RAG-based AI systems
+- 🏢 Developing enterprise-grade AI knowledge management solutions
 - 📊 Exploring advanced time series forecasting for energy markets
-- 🤖 Building production-ready ML pipelines
+- 🤖 Building production-ready ML pipelines with LangChain and OpenAI
 - 📈 Contributing to open-source data science projects
 
 ## 📫 Let's Connect!
@@ -183,6 +193,9 @@ When updating your GitHub repository, add these topics to improve discoverabilit
 - `power-bi`
 - `react`
 - `tailwindcss`
+- `streamlit`
+- `openai`
+- `faiss`
 
 ### Domain Topics
 - `ai-chatbot`
@@ -190,6 +203,9 @@ When updating your GitHub repository, add these topics to improve discoverabilit
 - `healthcare-analytics`
 - `environmental-data`
 - `rag-architecture`
+- `enterprise-ai`
+- `knowledge-management`
+- `document-processing`
 
 ### General Topics
 - `msc-student`
