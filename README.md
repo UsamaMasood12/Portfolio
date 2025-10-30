@@ -5,6 +5,18 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/UsamaMasood12)
 [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:usamamasood531@gmail.com)
 
+<div align="center">
+  
+## 🌐 [**LIVE PORTFOLIO WEBSITE**](https://usamamasood12.github.io/Portfolio/)
+
+### ✨ Visit my interactive portfolio featuring animated UI, project demos, and more!
+
+[![Portfolio Preview](https://img.shields.io/badge/🚀_View_Live_Portfolio-Click_Here-FF6B6B?style=for-the-badge)](https://usamamasood12.github.io/Portfolio/)
+
+</div>
+
+---
+
 ## 👨‍💻 About Me
 
 MSc Data Science graduate (Feb 2026, Distinction track) from Teesside University with a passion for transforming complex data into actionable insights. Specializing in machine learning, artificial intelligence, and business intelligence with proven expertise in developing predictive models achieving up to 99.80% accuracy.
