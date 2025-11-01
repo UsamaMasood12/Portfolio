@@ -58,65 +58,84 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: "AI Chatbot for Donor Support",
-      tech: ["LangChain", "RAG", "FAISS", "LLMs"],
-      description: "Developed RAG-based conversational AI for charity organization enabling automated donor queries",
-      details: "Implemented FAISS vector database for efficient information retrieval with LangChain orchestration",
-      github: "https://github.com/UsamaMasood12/Charity-Chatbot",
-      category: "AI/ML"
+      title: "Enterprise AI Knowledge Assistant",
+      tech: ["LangChain", "OpenAI GPT-4", "FastAPI", "Streamlit", "FAISS", "Docker", "AWS Lambda", "S3", "Python"],
+      description: "Production-ready RAG system with 95%+ accuracy, processing 6 document formats (PDF, DOCX, Excel, CSV, Images) with <2 second response time and 40% cost optimization through intelligent LLM routing",
+      details: "Implemented 4 advanced RAG strategies (Multi-Query, Self-RAG, Hybrid Search), 10+ REST API endpoints, comprehensive NLP features (NER, sentiment analysis, text classification), RAGAS evaluation metrics, and Docker/AWS deployment. Handles 100+ concurrent requests with auto-scaling capabilities and includes real-time analytics dashboard tracking costs and performance metrics.",
+      github: "https://github.com/UsamaMasood12/Enterprise-AI-Knowledge-Assistant",
+      category: "AI/ML",
+      highlights: ["5,000+ lines of production code", "25+ Python modules", "6 integration test suites", "$7/month for 100 queries/day"]
     },
     {
       id: 2,
-      title: "Predictive Maintenance in Manufacturing",
-      tech: ["Python", "SVM", "TensorFlow", "LIME"],
-      description: "Achieved 99.80% accuracy using SVM on 10,000+ data points, comparing 9 ML algorithms",
-      details: "Applied SMOTE balancing and built LIME explainability framework for model interpretability",
-      github: "https://github.com/UsamaMasood12/Predictive-Maintenance-Using-ML",
-      category: "AI/ML"
+      title: "AI Chatbot for Donor Support",
+      tech: ["LangChain", "Groq LLM", "FAISS", "HuggingFace", "Streamlit", "TextBlob", "Plotly", "Python"],
+      description: "Intelligent conversational AI for charity organizations with real-time sentiment analysis, 50+ FAQ knowledge base, and 2-3 second response time using RAG architecture",
+      details: "Built with Groq's llama-3.1-8b-instant model, features sentiment-aware response generation (happy/neutral/frustrated detection), multi-query search expansion, conversation memory, analytics dashboard with usage metrics, and quick suggestion buttons. Includes comprehensive logging system tracking response times, popular questions, and sentiment distribution over time.",
+      github: "https://github.com/UsamaMasood12/Charity-Chatbot",
+      category: "AI/ML",
+      highlights: ["FYP Teesside University", "Context-aware responses", "Emotion detection", "Real-time analytics"]
     },
     {
       id: 3,
-      title: "Used Car Price Prediction",
-      tech: ["Python", "Random Forest", "XGBoost"],
-      description: "Built regression model achieving R² of 0.8747 on 50,000+ vehicle records",
-      details: "Compared 5 algorithms with hyperparameter tuning using GridSearchCV for optimal performance",
-      github: "https://github.com/UsamaMasood12/used-car-price-prediction",
-      category: "AI/ML"
+      title: "Predictive Maintenance in Manufacturing",
+      tech: ["Python", "SVM", "TensorFlow", "LIME", "SMOTE", "Scikit-Learn", "XGBoost", "Random Forest", "Pandas"],
+      description: "Achieved 99.80% accuracy using SVM on 10,000+ industrial sensor data points, comparing 9 ML algorithms with comprehensive model explainability",
+      details: "Implemented multiple algorithms including Logistic Regression, Decision Trees, Random Forest, Gradient Boosting, Neural Networks, and SVM. Applied SMOTE for handling class imbalance, built LIME framework for model interpretability, performed feature engineering on sensor data, and created visualization dashboards. Potential 40% reduction in unplanned downtime with early failure detection.",
+      github: "https://github.com/UsamaMasood12/Predictive-Maintenance-Using-ML",
+      category: "AI/ML",
+      highlights: ["9 algorithm comparison", "False positive rate < 0.5%", "ROC-AUC: 0.998", "Industrial IoT data"]
     },
     {
       id: 4,
-      title: "NHS Digital Data Analysis Challenge",
-      tech: ["Excel", "Python", "R"],
-      description: "Analyzed NHS healthcare dataset using Excel dashboards, Python statistical testing, and R visualizations",
-      details: "Identified key healthcare insights including patient demographics and treatment outcome patterns",
-      github: "https://github.com/UsamaMasood12/Digdata-NHS-Excell-R-and-Python-challenge",
-      category: "Analytics"
+      title: "Used Car Price Prediction",
+      tech: ["Python", "Random Forest", "XGBoost", "GridSearchCV", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+      description: "Built regression model achieving R² of 0.8747 and RMSE of $2,150 on 50,000+ vehicle records with comprehensive feature engineering",
+      details: "Compared 5 algorithms (Linear Regression, Decision Tree, Random Forest, XGBoost, Gradient Boosting) with extensive hyperparameter tuning using GridSearchCV. Performed feature engineering on 15+ attributes including mileage, year, brand, fuel type, transmission. Created interactive visualizations for price distribution, feature importance analysis, and residual plots. Identified key pricing factors: age, mileage, brand premium.",
+      github: "https://github.com/UsamaMasood12/used-car-price-prediction",
+      category: "AI/ML",
+      highlights: ["50,000+ vehicles analyzed", "15+ features engineered", "Cross-validation", "Business insights generated"]
     },
     {
       id: 5,
-      title: "Interactive Plastic Pollution Visualization",
-      tech: ["D3.js", "JavaScript"],
-      description: "Developed interactive choropleth map for 195+ countries with multi-level filtering",
-      details: "Collaborated on 4 visualizations with zoom/pan functionality and drill-down capabilities",
-      github: "https://github.com/UsamaMasood12/Interactive-Visualization-of-Plastic-Pollution-across-the-globe",
-      category: "Visualization"
+      title: "NHS Digital Data Analysis Challenge",
+      tech: ["Excel", "Python", "R", "Power Query", "Statistical Testing", "ggplot2", "Pandas", "SciPy"],
+      description: "Comprehensive healthcare data analysis using Excel dashboards, Python statistical testing (t-tests, ANOVA), and R visualizations on NHS patient dataset",
+      details: "Analyzed patient demographics, treatment outcomes, and wait times across multiple departments. Created interactive Excel dashboards with pivot tables and advanced formulas, performed hypothesis testing in Python to identify significant factors affecting patient outcomes, and built sophisticated visualizations in R using ggplot2. Discovered key insights including seasonal patterns in admissions and correlation between wait times and patient satisfaction.",
+      github: "https://github.com/UsamaMasood12/Digdata-NHS-Excell-R-and-Python-challenge",
+      category: "Analytics",
+      highlights: ["Multi-tool analysis", "Statistical significance testing", "Healthcare insights", "3-phase methodology"]
     },
     {
       id: 6,
+      title: "Interactive Plastic Pollution Visualization",
+      tech: ["D3.js", "JavaScript", "HTML5", "CSS3", "TopoJSON", "Data Processing", "Web APIs"],
+      description: "Developed interactive choropleth map for 195+ countries with real-time filtering, zoom/pan capabilities, and responsive design showing global plastic pollution data",
+      details: "Built using D3.js v7 with TopoJSON for efficient geographic data rendering. Features include multi-level filtering by pollution metrics (tons/year, per capita), time-series animation showing pollution trends, drill-down capabilities to country level, responsive design for mobile/tablet, and tooltip system with detailed statistics. Collaborated on 4 different visualization types including bubble maps and time-series charts.",
+      github: "https://github.com/UsamaMasood12/Interactive-Visualization-of-Plastic-Pollution-across-the-globe",
+      category: "Visualization",
+      highlights: ["195+ countries mapped", "60 FPS smooth interactions", "Mobile responsive", "Real-time data updates"]
+    },
+    {
+      id: 7,
       title: "Power BI Jewelry Analytics Dashboard",
-      tech: ["Power BI", "DAX", "SQL"],
-      description: "Designed BI dashboard with star schema tracking revenue, profit margin, and inventory turnover",
-      details: "Created 50+ DAX measures including time intelligence and built 5 interactive dashboard pages",
+      tech: ["Power BI", "DAX", "SQL", "Star Schema", "Excel", "Power Query", "M Language", "Data Modeling"],
+      description: "Enterprise BI solution with 5 interactive dashboards tracking $2.5M revenue, featuring 50+ DAX measures, star schema design, and real-time KPI monitoring",
+      details: "Designed comprehensive jewelry retail analytics with Executive Dashboard (6 KPIs with trend indicators), Sales Analytics (category/product/temporal analysis), Inventory Management (stock optimization, turnover rates, reorder points), Customer Insights (RFM segmentation, CLV analysis, retention metrics), and Product Performance (margin analysis, cross-sell opportunities). Implemented time intelligence functions (YTD, MTD, YoY growth), dynamic filtering with synchronized slicers, and scheduled refresh for real-time updates.",
       github: "https://github.com/UsamaMasood12/Power-BI-analysis-Project",
-      category: "Analytics"
+      category: "Analytics",
+      highlights: ["5 dashboard pages", "50+ DAX formulas", "Real-time refresh", "MSc Teesside Project"]
     }
   ];
 
   const skills = {
-    "Languages": ["Python", "R", "SQL", "JavaScript", "C++"],
-    "ML & AI": ["Scikit-Learn", "TensorFlow", "PyTorch", "XGBoost", "LangChain", "RAG", "FAISS", "NLP"],
-    "Data Tools": ["Pandas", "NumPy", "Power BI", "Tableau", "D3.js", "Excel"],
-    "Infrastructure": ["SQL", "PostgreSQL", "MongoDB", "AWS", "Azure", "Docker", "Git"]
+    "Languages": ["Python", "R", "SQL", "JavaScript", "C++", "HTML5", "CSS3", "DAX", "M Language"],
+    "ML & AI": ["Scikit-Learn", "TensorFlow", "PyTorch", "XGBoost", "LangChain", "OpenAI GPT-4", "Groq", "RAG", "FAISS", "HuggingFace", "NLP", "LIME", "SMOTE"],
+    "Data Tools": ["Pandas", "NumPy", "Power BI", "Tableau", "D3.js", "Excel (Advanced)", "Matplotlib", "Seaborn", "Plotly", "ggplot2", "Power Query"],
+    "Frameworks": ["FastAPI", "Streamlit", "Docker", "LangChain", "Flask", "Node.js", "React"],
+    "Cloud & DevOps": ["AWS Lambda", "S3", "Azure", "Docker", "Git/GitHub", "CI/CD", "REST APIs"],
+    "Databases": ["PostgreSQL", "MongoDB", "FAISS Vector DB", "SQL Server", "Firebase"],
+    "Analytics": ["Statistical Testing", "A/B Testing", "Time Series", "Regression", "Classification", "Clustering", "RFM Analysis", "Sentiment Analysis"]
   };
 
   const experience = {
