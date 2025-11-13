@@ -1,5 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Code, Database, Brain, BarChart3, ChevronDown, Zap, Award, Target, TrendingUp, Rocket, Star, Cpu, Network, GitBranch, Box } from 'lucide-react';
+
+// Lazy load ChatBot component
+const ChatBot = lazy(() => import('./components/ChatBot'));
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState('about');
@@ -740,6 +743,11 @@ export default function Portfolio() {
         .animate-slide-in-left { animation: slide-in-left 0.6s ease-out; }
         .animate-slide-in-right { animation: slide-in-right 0.6s ease-out; }
       `}</style>
+
+      {/* AI Chatbot Widget */}
+      <Suspense fallback={<div></div>}>
+        <ChatBot />
+      </Suspense>
     </div>
   );
 }
