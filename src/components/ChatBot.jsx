@@ -26,6 +26,15 @@ const ChatBot = () => {
     "Tell me about his education"
   ];
 
+  const checkBackendHealth = async () => {
+    try {
+      const response = await fetch(`${API_URL}/health`, { timeout: 3000 });
+      setBackendAvailable(response.ok);
+    } catch (error) {
+      setBackendAvailable(false);
+    }
+  };
+
   // Load dark mode preference and chat history from localStorage
   useEffect(() => {
     const savedDarkMode = localStorage.getItem('chatbot-dark-mode') === 'true';
@@ -42,6 +51,7 @@ const ChatBot = () => {
 
     // Check if backend is available
     checkBackendHealth();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sessionId]);
 
   // Save messages to localStorage
@@ -71,15 +81,6 @@ const ChatBot = () => {
       inputRef.current?.focus();
     }
   }, [isOpen]);
-
-  const checkBackendHealth = async () => {
-    try {
-      const response = await fetch(`${API_URL}/health`, { timeout: 3000 });
-      setBackendAvailable(response.ok);
-    } catch (error) {
-      setBackendAvailable(false);
-    }
-  };
 
   const handleSendMessage = async (text = inputValue) => {
     if (!text.trim() || isLoading) return;
