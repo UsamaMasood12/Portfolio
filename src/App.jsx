@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, lazy, Suspense } from 'react';
-import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Code, Database, Brain, BarChart3, ChevronDown, Zap, Award, Target, TrendingUp, Rocket, Star, Cpu, Network, GitBranch, Box } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, ExternalLink, Code, Brain, BarChart3, Award, TrendingUp, Rocket, Star, Cpu, Network } from 'lucide-react';
 
 // Lazy load ChatBot component
 const ChatBot = lazy(() => import('./components/ChatBot'));
