@@ -17,7 +17,7 @@ const ChatBot = () => {
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
-  const API_URL = import.meta.env.VITE_API_URL || 'https://your-backend-url.com/api/v1';
+  const API_URL = process.env.REACT_APP_API_URL || 'https://your-backend-url.com/api/v1';
 
   const suggestions = [
     "Tell me about Usama's AI projects",
