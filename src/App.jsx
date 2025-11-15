@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Github, Linkedin, Mail, MapPin, ExternalLink, Code, Brain, BarChart3, Award, TrendingUp, Rocket, Star, Cpu, Network } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, ExternalLink, Code, Brain, BarChart3, Award, TrendingUp, Rocket, Star, Cpu, Network, Phone, Users } from 'lucide-react';
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState('about');
@@ -7,6 +7,7 @@ export default function Portfolio() {
   const [scrollY, setScrollY] = useState(0);
   const [isVisible, setIsVisible] = useState({});
   const [cursorVariant, setCursorVariant] = useState('default');
+  const [activeCert, setActiveCert] = useState(0);
   const observerRef = useRef(null);
 
   useEffect(() => {
@@ -122,18 +123,27 @@ export default function Portfolio() {
   const skills = {
     "AI & Machine Learning": [
       "LangChain", "OpenAI GPT-4", "RAG Systems", "TensorFlow", "PyTorch",
-      "Scikit-Learn", "XGBoost", "FAISS", "HuggingFace", "NLP"
+      "Scikit-Learn", "XGBoost", "FAISS", "HuggingFace", "NLP",
+      "Computer Vision", "Deep Learning", "Neural Networks", "LIME"
     ],
     "Programming & Tools": [
       "Python", "SQL", "JavaScript", "R", "Git", "Docker",
-      "FastAPI", "Streamlit", "React", "REST APIs"
+      "FastAPI", "Streamlit", "React", "REST APIs", "Node.js",
+      "TypeScript", "Jupyter", "VS Code"
     ],
     "Data & Analytics": [
       "Pandas", "NumPy", "Power BI", "Tableau", "D3.js",
-      "Matplotlib", "Seaborn", "Statistical Testing", "A/B Testing"
+      "Matplotlib", "Seaborn", "Statistical Testing", "A/B Testing",
+      "Excel", "DAX", "ggplot2", "Data Visualization"
     ],
     "Cloud & Deployment": [
-      "AWS Lambda", "S3", "Azure", "CI/CD", "Docker", "GitHub Actions"
+      "AWS Lambda", "S3", "Azure", "CI/CD", "Docker", "GitHub Actions",
+      "EC2", "Cloud Architecture", "Microservices"
+    ],
+    "Soft Skills": [
+      "Problem Solving", "Critical Thinking", "Team Collaboration",
+      "Communication", "Agile Methodology", "Project Management",
+      "Leadership", "Adaptability", "Time Management", "Presentation"
     ]
   };
 
@@ -150,9 +160,21 @@ export default function Portfolio() {
   };
 
   const certifications = [
-    { name: "IBM Data Science Professional Certificate", org: "IBM" },
-    { name: "Introduction to Data Science Specialization", org: "Coursera" },
-    { name: "Web Development Specialization", org: "Online" }
+    {
+      name: "IBM Data Science Professional Certificate",
+      org: "Coursera",
+      link: "https://www.coursera.org/account/accomplishments/professional-cert/6TLEM2D36R9Q"
+    },
+    {
+      name: "Introduction to Data Science Specialization",
+      org: "Coursera",
+      link: "https://www.coursera.org/account/accomplishments/specialization/KF8QJXKELP4K"
+    },
+    {
+      name: "Web Development Specialization",
+      org: "Coursera",
+      link: "https://www.coursera.org/account/accomplishments/specialization/8WBJALJESN96"
+    }
   ];
 
   // AI Neural Network Background
@@ -239,10 +261,14 @@ export default function Portfolio() {
                 <span className="block bg-gradient-to-r from-amber-400 to-yellow-400 bg-clip-text text-transparent">Data Scientist</span>
               </h2>
               <p className="text-base text-slate-300 leading-relaxed mb-6">
-                Specializing in <span className="text-amber-400 font-semibold">Large Language Models</span>,
-                <span className="text-amber-300 font-semibold"> RAG Systems</span>, and
-                <span className="text-yellow-400 font-semibold"> Production ML</span>.
-                Building intelligent systems that transform data into actionable insights.
+                Passionate AI Engineer specializing in <span className="text-amber-400 font-semibold">Large Language Models</span>,
+                <span className="text-amber-300 font-semibold"> Retrieval-Augmented Generation (RAG) Systems</span>, and
+                <span className="text-yellow-400 font-semibold"> Production-Scale Machine Learning</span>.
+                Expert in architecting end-to-end AI solutions leveraging cutting-edge technologies like LangChain, OpenAI GPT-4,
+                and advanced neural networks. Proven track record of building intelligent systems that transform complex data
+                into actionable business insights, achieving measurable impact through innovative AI applications.
+                Committed to pushing the boundaries of artificial intelligence while maintaining focus on practical,
+                scalable implementations that drive real-world value.
               </p>
               <div className="flex flex-wrap gap-3 justify-center lg:justify-start text-sm">
                 <div className="flex items-center gap-2 px-3 py-2 bg-slate-800/40 rounded-xl border border-slate-700/50">
@@ -250,8 +276,8 @@ export default function Portfolio() {
                   <span className="text-slate-200">Middlesbrough, UK</span>
                 </div>
                 <div className="flex items-center gap-2 px-3 py-2 bg-slate-800/40 rounded-xl border border-slate-700/50">
-                  <Mail size={16} className="text-amber-400" />
-                  <span className="text-slate-200">usamamasood531@gmail.com</span>
+                  <Phone size={16} className="text-amber-400" />
+                  <span className="text-slate-200">+4477030958</span>
                 </div>
               </div>
             </div>
@@ -263,16 +289,19 @@ export default function Portfolio() {
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800/50 backdrop-blur-xl border border-amber-500/20 rounded-full mb-4">
               <Rocket className="text-amber-400" size={18} />
-              <span className="text-xs font-medium text-amber-100">AI & ML Projects</span>
+              <span className="text-xs font-medium text-amber-100">Featured Portfolio</span>
             </div>
             <h2 className="text-4xl font-bold mb-4">
               <span className="bg-gradient-to-r from-amber-400 to-yellow-400 bg-clip-text text-transparent">
-                Building Intelligent Systems
+                Data Science & Analytics Projects
               </span>
             </h2>
-            <p className="text-base text-slate-300 max-w-3xl mx-auto">
-              From production-ready RAG systems to predictive ML models, explore my portfolio of AI-powered solutions
-              delivering measurable business impact.
+            <p className="text-base text-slate-300 max-w-3xl mx-auto leading-relaxed">
+              A comprehensive collection of cutting-edge projects spanning Artificial Intelligence, Machine Learning,
+              Data Analytics, and Business Intelligence. From production-ready RAG systems leveraging Large Language Models
+              to advanced predictive maintenance solutions, statistical healthcare analytics with R and Python,
+              and interactive Power BI dashboards - each project demonstrates end-to-end expertise in transforming
+              complex data challenges into actionable insights that drive measurable business value and innovation.
             </p>
           </div>
         );
@@ -289,9 +318,13 @@ export default function Portfolio() {
                 AI & Data Science Arsenal
               </span>
             </h2>
-            <p className="text-base text-slate-300 max-w-3xl mx-auto">
-              Mastery in LangChain, OpenAI, TensorFlow, and modern ML frameworks.
-              Proficient in building scalable AI systems from research to production.
+            <p className="text-base text-slate-300 max-w-3xl mx-auto leading-relaxed">
+              Deep expertise in cutting-edge AI technologies including LangChain, OpenAI GPT-4, and advanced ML frameworks
+              like TensorFlow and PyTorch. Proficient in building end-to-end scalable AI systems from research and prototyping
+              through to production deployment. Comprehensive knowledge spanning machine learning model development,
+              natural language processing, data analytics, cloud infrastructure, and business intelligence tools.
+              Complemented by strong soft skills in problem-solving, collaboration, and agile project management,
+              enabling effective translation of complex technical solutions into tangible business outcomes.
             </p>
           </div>
         );
@@ -445,19 +478,42 @@ export default function Portfolio() {
                 <h4 className="text-2xl font-bold text-blue-400">Certifications</h4>
               </div>
 
-              <div className="space-y-3">
+              {/* Tab Headers */}
+              <div className="flex gap-2 mb-4 overflow-x-auto">
                 {certifications.map((cert, index) => (
-                  <div
+                  <button
                     key={index}
-                    className="flex items-start gap-3 p-4 rounded-xl bg-slate-900/30 border border-slate-700/30 hover:border-amber-500/50 transition-all duration-300"
+                    onClick={() => setActiveCert(index)}
+                    className={`flex-1 min-w-fit px-4 py-2 rounded-lg text-xs font-medium transition-all duration-300 ${
+                      activeCert === index
+                        ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-slate-900'
+                        : 'bg-slate-900/30 text-slate-400 hover:text-amber-400 border border-slate-700/30'
+                    }`}
                   >
-                    <div className="w-2 h-2 bg-amber-400 rounded-full mt-2"></div>
-                    <div>
-                      <p className="text-sm font-medium text-white">{cert.name}</p>
-                      <p className="text-xs text-slate-400">{cert.org}</p>
-                    </div>
-                  </div>
+                    {index === 0 ? 'IBM DS' : index === 1 ? 'Intro DS' : 'Web Dev'}
+                  </button>
                 ))}
+              </div>
+
+              {/* Tab Content */}
+              <div className="p-6 rounded-xl bg-slate-900/30 border border-slate-700/30">
+                <div className="mb-4">
+                  <h5 className="text-base font-bold text-white mb-2">
+                    {certifications[activeCert].name}
+                  </h5>
+                  <p className="text-sm text-slate-400 mb-4">
+                    Issued by {certifications[activeCert].org}
+                  </p>
+                </div>
+                <a
+                  href={certifications[activeCert].link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-amber-500 to-amber-600 rounded-lg hover:from-amber-400 hover:to-amber-500 transition-all duration-300 text-sm font-bold text-slate-900"
+                >
+                  <ExternalLink size={14} />
+                  View Certificate
+                </a>
               </div>
             </div>
           </div>
@@ -474,10 +530,13 @@ export default function Portfolio() {
                   key={project.id}
                   id={`project-${project.id}`}
                   data-animate
-                  className={`group relative bg-slate-800/40 backdrop-blur-2xl rounded-2xl p-6 border border-slate-700/50 hover:border-amber-500/50 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 ${
-                    isVisible[`project-${project.id}`] ? 'animate-fade-in-up' : 'opacity-0'
+                  className={`group relative bg-slate-800/40 backdrop-blur-2xl rounded-2xl p-6 border border-slate-700/50 hover:border-amber-500/50 transition-all duration-300 ease-out flex flex-col ${
+                    isVisible[`project-${project.id}`] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                   }`}
-                  style={{ animationDelay: `${index * 0.1}s` }}
+                  style={{
+                    transitionDelay: `${index * 100}ms`,
+                    willChange: 'opacity, transform'
+                  }}
                 >
                   {/* Category Badge */}
                   <div className="absolute -top-3 -right-3 px-3 py-1 bg-gradient-to-r from-amber-500 to-amber-600 rounded-xl text-xs font-bold shadow-xl">
@@ -485,14 +544,14 @@ export default function Portfolio() {
                   </div>
 
                   {/* Content */}
-                  <div className="mb-4">
+                  <div className="mb-4 flex-grow">
                     <h4 className="text-lg font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">
                       {project.title}
                     </h4>
                     <p className="text-sm text-slate-300 leading-relaxed mb-3">
                       {project.description}
                     </p>
-                    <p className="text-xs text-amber-400 font-semibold mb-4">
+                    <p className="text-xs text-amber-400 font-semibold">
                       {project.impact}
                     </p>
                   </div>
@@ -508,7 +567,7 @@ export default function Portfolio() {
                   </div>
 
                   {/* Tech Stack */}
-                  <div className="flex flex-wrap gap-1 mb-4">
+                  <div className="flex flex-wrap gap-1 mb-4 items-center">
                     {project.tech.slice(0, 4).map((tech, i) => (
                       <span key={i} className="px-2 py-1 bg-slate-900/50 rounded text-xs text-slate-400 border border-slate-700/50">
                         {tech}
@@ -526,10 +585,10 @@ export default function Portfolio() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 px-4 py-2 bg-gradient-to-r from-amber-500 to-amber-600 rounded-xl hover:from-amber-400 hover:to-amber-500 transition-all duration-300 text-sm font-bold text-slate-900"
+                    className="flex items-center justify-center gap-2 px-4 py-2.5 bg-gradient-to-r from-amber-500 to-amber-600 rounded-xl hover:from-amber-400 hover:to-amber-500 transition-all duration-300 text-sm font-bold text-slate-900 mt-auto"
                   >
                     <Github size={16} />
-                    View Code
+                    <span>View Code</span>
                     <ExternalLink size={14} />
                   </a>
                 </div>
@@ -549,10 +608,13 @@ export default function Portfolio() {
                   key={category}
                   id={`skill-${categoryIndex}`}
                   data-animate
-                  className={`group relative bg-slate-800/40 backdrop-blur-2xl rounded-2xl p-8 border border-slate-700/50 hover:border-amber-500/50 transition-all duration-500 ${
-                    isVisible[`skill-${categoryIndex}`] ? 'animate-fade-in-up' : 'opacity-0'
+                  className={`group relative bg-slate-800/40 backdrop-blur-2xl rounded-2xl p-8 border border-slate-700/50 hover:border-amber-500/50 transition-all duration-300 ease-out ${
+                    isVisible[`skill-${categoryIndex}`] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                   }`}
-                  style={{ animationDelay: `${categoryIndex * 0.1}s` }}
+                  style={{
+                    transitionDelay: `${categoryIndex * 100}ms`,
+                    willChange: 'opacity, transform'
+                  }}
                 >
                   <div className="flex items-center gap-3 mb-6">
                     <div className="p-3 bg-gradient-to-br from-amber-500/20 to-amber-600/10 rounded-xl">
@@ -560,6 +622,7 @@ export default function Portfolio() {
                       {categoryIndex === 1 && <Code className="text-amber-400" size={24} />}
                       {categoryIndex === 2 && <BarChart3 className="text-amber-400" size={24} />}
                       {categoryIndex === 3 && <Network className="text-amber-400" size={24} />}
+                      {categoryIndex === 4 && <Users className="text-amber-400" size={24} />}
                     </div>
                     <h4 className="text-xl font-bold bg-gradient-to-r from-amber-400 to-yellow-400 bg-clip-text text-transparent">
                       {category}
@@ -579,7 +642,9 @@ export default function Portfolio() {
 
                   {/* Progress */}
                   <div className="mt-6 pt-6 border-t border-slate-700/50 flex justify-between items-center">
-                    <span className="text-xs text-slate-400">{items.length} Technologies</span>
+                    <span className="text-xs text-slate-400">
+                      {items.length} {categoryIndex === 4 ? 'Skills' : 'Technologies'}
+                    </span>
                     <div className="flex gap-1">
                       {[...Array(5)].map((_, i) => (
                         <div
