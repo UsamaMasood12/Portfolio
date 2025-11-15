@@ -277,7 +277,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center gap-2 px-3 py-2 bg-slate-800/40 rounded-xl border border-slate-700/50">
                   <Phone size={16} className="text-amber-400" />
-                  <span className="text-slate-200">+4477030958</span>
+                  <span className="text-slate-200">+447724030958</span>
                 </div>
               </div>
             </div>
