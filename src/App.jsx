@@ -400,7 +400,7 @@ export default function Portfolio() {
             {[
               { icon: Linkedin, href: "https://www.linkedin.com/in/masood-usama" },
               { icon: Github, href: "https://github.com/UsamaMasood12" },
-              { icon: Mail, href: "mailto:usamamasood531@gmail.com" }
+              { icon: Mail, href: "mailto:usamamasood.ai@gmail.com" }
             ].map((social, index) => (
               <a
                 key={index}
@@ -739,7 +739,7 @@ export default function Portfolio() {
             {[
               { icon: Linkedin, href: "https://www.linkedin.com/in/masood-usama" },
               { icon: Github, href: "https://github.com/UsamaMasood12" },
-              { icon: Mail, href: "mailto:usamamasood531@gmail.com" }
+              { icon: Mail, href: "mailto:usamamasood.ai@gmail.com" }
             ].map((social, index) => (
               <a
                 key={index}
