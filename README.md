@@ -3,7 +3,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://usamamasood12.github.io/Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/masood-usama)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/UsamaMasood12)
-[![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:usamamasood531@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:usamamasood.ai@gmail.com)
 
 <div align="center">
   
